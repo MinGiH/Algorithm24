@@ -4,7 +4,6 @@ def factorial(n):
     for k in range(n, 0, -1):
         result *= k
     return result
-
 #함수 구현을 위한 조치
 num = int(input("양의 정수를 입력하세요: "))
 result = factorial(num)
